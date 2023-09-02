@@ -11,7 +11,7 @@ import getWeather, {
 import Forecast from "./components/Forecast";
 import Highlights from "./components/Highlights";
 import Hourly from "./components/Hourly";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 
 function App() {
   const [app, dispatchApp] = useReducer(appReducer, initialAppState);
@@ -141,7 +141,7 @@ function App() {
           <Highlights />
           <h2 className="heading">This Week</h2>
           <Forecast />
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </section>
     </AppContext.Provider>
