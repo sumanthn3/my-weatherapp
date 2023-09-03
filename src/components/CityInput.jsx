@@ -2,6 +2,8 @@ import { useContext, useRef } from "react";
 import AppContext from "../provider/appContext";
 import { getCityName } from "../services/weatherService";
 import geoCoords from "../utils/geoCoords";
+import { PiMagnifyingGlassBold } from "react-icons/pi";
+import { IoMdLocate } from "react-icons/io";
 
 function CityInput() {
   const input = useRef();
@@ -29,12 +31,17 @@ function CityInput() {
         }}
         style={isDark ? { background: "#37435a" } : null}
       >
-        <i
-          className="fa-solid fa-location-crosshairs location-icon"
-          style={isDark ? { color: "#FFFFFF" } : null}
-        ></i>
+       
+        <div className="location-icon">
+        <IoMdLocate className="fa-solid" />
+        </div>
+        
+        
       </span>
-      <i className="fa-solid fa-magnifying-glass search-icon"></i>
+      {/* <i className="fa-solid fa-magnifying-glass search-icon"></i> */}
+      <div className="fa-solid search-icon">
+            <PiMagnifyingGlassBold className="fa-solid text-2xl" />
+          </div>
       <input
         type="text"
         ref={input}
