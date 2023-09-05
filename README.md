@@ -1,10 +1,40 @@
-# Getting Started with Create React App
+# Getting Started with my Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Weather App
+
+## Home Web Version
+
+![Home Image](./src/Assets/Web.png)
+
+## Home Mobile Version
+
+![Mobile Image](./src/Assets/WeatherMobileApp.png)
+
+## Technical Details
+
+<p align="center">
+  <a href="https://nodejs.org/en/blog/release/v18.15.0/"><img alt="NodeJS" src="https://img.shields.io/badge/node-18.15.0-339933?style=for-the-badge&logo=node.js&logoColor=white" /></a>
+  <a href="https://www.npmjs.com/package/npm/v/9.6.2"><img alt="NPM" src="https://img.shields.io/badge/npm-9.6.2-CB3837?style=for-the-badge&logo=npm&logoColor=white" /></a>
+  <a href="https://reactjs.org/"><img alt="Made With React" src="https://img.shields.io/badge/made%20with-react-61DAFB?style=for-the-badge&logo=react&logoColor=white" /></a>
+  <a href="https://github.com/prettier/prettier"><img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4?style=for-the-badge&logo=prettier&logoColor=white" /></a>
+  <br/>
+  <a href="https://.netlify.app"><img alt="Website" src="https://img.shields.io/badge/website-up-F9A825?style=for-the-badge" /></a>
+  <a href="https://.netlify.app"><img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/760e3894-259a-45fb-b2c2-bce676e71cfb/deploy-status" /></a>
+</p>
+
+## `Key Features:`
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+## `Steps to run it on your system`
+
+- Use git clone https://github.com/sumanthn3/my-weatherapp.git to clone the project.
+- Change into the cloned folder.
+- Install all the project dependencies by Running npm install command.
+- Create .env file and add weather app API key.
+- Run npm start to start the project.
 
 ### `npm start`
 
@@ -13,11 +43,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -28,43 +53,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
